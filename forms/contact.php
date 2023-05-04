@@ -1,6 +1,6 @@
 <?php
 
-  $receiving_email_address = 'example@gmail.com';
+  $receiving_email_address = 'vishuroyal1228@gmail.com';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
@@ -11,7 +11,7 @@
   $contact = new PHP_Email_Form;
   $contact->ajax = true;
   
-  $contact->to = 'example@gmail.com';
+  $contact->to = 'vishuroyal1228@gmail.com';
   $contact->from_name = $_POST['name'];
   $contact->from_email = $_POST['email'];
   $contact->subject = $_POST['subject'];
